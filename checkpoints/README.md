@@ -1,5 +1,7 @@
 ### Download finetuning weights
-You can download the weights from
+You can download the weights from GoogleDrive
+
+
 
 
 
