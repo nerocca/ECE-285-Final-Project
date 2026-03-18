@@ -22,8 +22,10 @@ cd DNAGPT/checkpoints
 * [dna_gpt0.1b_h.pth](https://drive.google.com/file/d/15m6CH3zaMSqflOaf6ec5VPfiulg-Gh0u/view?usp=drive_link): DNAGPT 0.1B params model pretrained with human genomes
    
 #### Training Dataset:
-* We use Human GRCh38 Genome Chromosome 22 Segments as our traing and test datasets. You can download the dataset from Google Drive.
+* We use Human GRCh38 Genome Chromosome 22 Segments as our traing and test datasets. You can download the training dataset from Google Drive.
 * https://drive.google.com/file/d/1g2mbWcQ4fjd6WSO-Q_6BjN9fEIcqLLkx/view?usp=drive_link
+* Valid and test datasets are already in the data file. After download the training dataset, put it into the data file as well.
+* You can also use your own dataset, whith the split.py to split the dataset into 3 parts.
 ## Install
 
 ### Pre-requirements
